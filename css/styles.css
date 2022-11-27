@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --main-title-color: #212121;
     --secondary-title-color: #FFFFFF;
     --main-text-color: #757575;
@@ -12,16 +12,17 @@
     --card-shadow: 0px 2px 1px 0 rgba(0, 0, 0, 0.2),
     0px 1px 1px 0 rgba(0, 0, 0, 0.14), 0px 1px 3px 0 rgba(0, 0, 0, 0.12);
     --animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-body {
+/* body {
     font-family: Roboto, sans-serif;
     color: var(--main-title-color);
     background-color: var(--background-color);
     font-size: 14px;
     letter-spacing: 0.03em;
     }
-        /* reset */
+        /* reset */ 
+        /*
 h1,
 h2,
 h3,
@@ -50,7 +51,7 @@ img {
         display: block;
         max-width: 100%;
         height: auto;
-    }
+    } 
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
@@ -63,15 +64,15 @@ img {
     clip-path: inset(50%);
     margin: -1px;
 
-}
+} 
 /*-----------------HEADER----------------*/
-
+/*
 .container {
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
     padding: 0 15px;
-}
+} 
 .header {
     border-bottom: var(--border);
 }
@@ -114,7 +115,7 @@ img {
 
 .header__icon {
     fill: currentColor;
-}
+} 
 .logo {
     font-family: 'Raleway';
         font-style: normal;
@@ -181,8 +182,9 @@ img {
     border-radius: 2px;
     background-color: var(--accent-color);
 
-}
+} 
 /*-----------------HERO----------------*/
+/*
 .hero {
     max-width: 1600px;
     height: 600px;
@@ -237,9 +239,9 @@ img {
 .hero__button:focus {
     
     background-color: #188CE8;
-    }
+    } */
 /*-----------------Переваги----------------*/
-
+/*
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -282,6 +284,7 @@ img {
     color: var(--main-text-color);
 }
 /*-----------------Наша діяльність----------------*/
+/*
 .activity {
 padding-bottom: 94px;
 
@@ -321,9 +324,9 @@ line-height: calc(16/14);
 
 text-transform: uppercase;
 color: var(--secondary-title-color);
-}
+} */
 /*-----------------Наша команда----------------*/
-
+/*
 .team {
     background-color: #F5F4FA;
    }
@@ -409,8 +412,9 @@ box-shadow: var(--card-shadow);
     line-height: calc(19/16);   
     text-align: center;
     color: var(--main-text-color);
-}
+} */
 /*-----------------Clients----------------*/
+/*
 .clients__list {
     display: flex;
    
@@ -460,9 +464,9 @@ box-shadow: var(--card-shadow);
     color: var(--accent-color);
 }
 
-
+*/
 /*-----------------FOOTER----------------*/
-
+/*
 .footer {
     background-color: var(--main-background-color);
     padding-top: 60px;
@@ -624,8 +628,9 @@ box-shadow: var(--card-shadow);
 .booking__field:focus {
     border: 1px solid var(--accent-color);
 }
-
+*/
    /*----------------Модальне вікно----------------*/
+   /*
 .backdrop {
 position: fixed;
 top: 0;
@@ -820,7 +825,7 @@ transition: opacity 300ms ease, visibility 300ms ease;
 
 /*-----------------PORTFOLIO----------------*/
 /*-----------------НАШІ ПРОЄКТИ----------------*/
-
+/*
 
 .projects {
     display: flex;
@@ -886,7 +891,7 @@ transition: opacity 300ms ease, visibility 300ms ease;
     color: var(--main-title-color);
 }
     
-.project-type {
+.projects__type {
     
     font-size: 16px;
     line-height: 30px;
@@ -894,6 +899,7 @@ transition: opacity 300ms ease, visibility 300ms ease;
     color: var(--main-text-color);
     }
 /*----------------CARD SET----------------*/
+/*
 .card-set {
     display: flex;
     padding: 0;
@@ -950,3 +956,4 @@ transition: opacity 300ms ease, visibility 300ms ease;
     line-height: calc(28/18);
     
 }
+*/

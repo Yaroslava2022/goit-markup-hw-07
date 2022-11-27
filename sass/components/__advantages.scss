@@ -1,0 +1,38 @@
+.advantages {
+    @include section(94px, 94px);
+    @extend %list;
+    display: flex;
+    justify-content: space-between;
+
+    &__list:not(:last-child) {
+        margin-right: 30px;
+    }
+    
+    &__item {
+        background-color: #F5F4FA;
+        width: 270px;
+        height: 120px;
+        padding: 25px 100px;
+        margin-bottom: 30px;
+    }
+    
+    &__icon {
+        fill: currentColor;
+    }
+          
+    &__title {
+        margin-bottom: 10px;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: calc(16/14);
+        text-transform: uppercase;
+    }
+    
+    &__text {
+        line-height: calc(24/14);
+    
+        color: var(--main-text-color);
+    }
+
+}
+

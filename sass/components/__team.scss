@@ -1,0 +1,25 @@
+.team {
+    @include section(94px, 94px);
+    background-color: #F5F4FA;
+
+    &__list {
+    display: flex;
+    background-color: #F5F4FA;
+    }
+
+    &__item:not(:last-child) {
+    margin-right: 30px;
+    }
+
+    &__item {
+    box-shadow: var(--card-shadow);
+    }
+
+    &__title {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42/36);
+    text-align: center;
+    }
+}
